@@ -1,0 +1,124 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #701b97;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #3700fd;
+  border-radius: 0;
+  border: 0;
+}
+
+.logo-img{
+ 
+  width: 100px;
+  height: 100px;
+  margin: 10px 15px 10px 0;
+  border-radius: 50%;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #04f72d;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(240, 4, 63);
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: rgb(10, 1, 1);
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #ff0077;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #020000;
+}
+#nav-list a span {
+  font-size: 1.25em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #5af302;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffffff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+   margin-top: -30px;
+}
+@media (min-width:1200px) {
+
+}
+@media(min-width:673px) and (max-width:1199){
+#logo-img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+
+  }
+}
+@media (max-width:669px) {
+  .navbar-brand{
+    padding-top: 10px;
+    height: 80px;
+
+  }
+  .navbar-brand h1{
+    padding-top: 10px;
+    font-size: 4vw;
+  }
+  .navbar-brand p{
+    text-transform: uppercase;
+    font-size: 0.6em;
+    margin-top: 12px;
+
+  }
+  .navbar-brand p img{
+    height: 20px;
+  }
+  #collapsable-nav a{
+     font-size: .8em;
+    }
+    #collapsable-nav a span {
+      font-size: 1em;
+      margin-right: 5px;
+    }
+  
+  }
+ 
+
