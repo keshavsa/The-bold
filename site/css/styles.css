@@ -84,15 +84,18 @@ body {
 @media (min-width:1200px) {
 
 }
-@media(min-width:673px) and (max-width:1199){
+@media(min-width:769px) and (max-width:1199){
 #logo-img{
-  height: 80px;
-  width: 80px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
 
   }
 }
-@media (max-width:669px) {
+
+
+
+@media (max-width:768px) {
   .navbar-brand{
     padding-top: 10px;
     height: 80px;
@@ -118,7 +121,23 @@ body {
       font-size: 1em;
       margin-right: 5px;
     }
+    #call-btn > a{
+      font-size: 1.5em;
+      display: block;
+      margin: 0 20px;
+      padding: 10px;
+      border: 2px solid #fff;
+      background-color: #f6b319;
+      color: #951c49;
+    }
+    #xs-deliver{
+      margin-top: 5px;
+      font-size: .7em;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
   
   }
  
 
+ 
